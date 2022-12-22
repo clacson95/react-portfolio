@@ -1,0 +1,26 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "## Description This application is my personal portfolio, created with React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clacson95/react-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clacson95/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/clacson95/react-portfolio#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.4",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.0.1"
+  }
+}
