@@ -26,6 +26,14 @@ const Portfolio = () => {
     return (
         <Container>
 
+
+                    
+                    
+
+                    
+
+
+
             {/* portfolio grid */}
             <VStack>
 
@@ -72,13 +80,13 @@ const Portfolio = () => {
                                 <ButtonGroup variant="ghost">
                                     <IconButton
                                         as="a"
-                                        href=""
+                                        href="https://clacson95.github.io/password-generator/"
                                         aria-label="Deployed Application"
                                         icon={<GrDeploy fontSize="1.25rem" />}
                                     />
                                     <IconButton
                                         as="a"
-                                        href="https://github.com/clacson95/work-day-scheduler"
+                                        href="https://github.com/clacson95/password-generator"
                                         aria-label="GitHub"
                                         icon={<FaGithub fontSize="1.25rem" />}
                                     />
@@ -86,18 +94,125 @@ const Portfolio = () => {
                             </HStack>
                         </VStack>
                     </Center>
-                    
-
+            
                 </HStack>
 
+                {/* row 2 */}
                 <HStack>
-                    <Project src={Quiz} alt="coding quiz" />
-                    <Project src={Team} alt="employee tracker" />
+
+                    {/* project 3 */}
+                    <Center>
+                        <VStack>
+                            {/* project image */}
+                            <Image src={Quiz} alt="coding quiz" />
+                            {/* project label */}
+                            <Text> Coding Quiz</Text>
+                            {/* github deployment & repo */}
+                            <HStack>
+                                <ButtonGroup variant="ghost">
+                                    <IconButton
+                                        as="a"
+                                        href="https://clacson95.github.io/code-quiz/"
+                                        aria-label="Deployed Application"
+                                        icon={<GrDeploy fontSize="1.25rem" />}
+                                    />
+                                    <IconButton
+                                        as="a"
+                                        href="https://github.com/clacson95/code-quiz"
+                                        aria-label="GitHub"
+                                        icon={<FaGithub fontSize="1.25rem" />}
+                                    />
+                                </ButtonGroup>
+                            </HStack>
+                        </VStack>
+                    </Center>
+
+                    {/* project 4 */}
+                    <Center>
+                        <VStack>
+                            {/* project image */}
+                            <Image src={Team} alt="employee tracker" />
+                            {/* project label */}
+                            <Text> Employee Tracker</Text>
+                            {/* github deployment & repo */}
+                            <HStack>
+                                <ButtonGroup variant="ghost">
+                                    <IconButton
+                                        as="a"
+                                        href="https://watch.screencastify.com/v/cxJoNtDCsNBkgKMQThk1"
+                                        aria-label="Deployed Application"
+                                        icon={<GrDeploy fontSize="1.25rem" />}
+                                    />
+                                    <IconButton
+                                        as="a"
+                                        href="https://github.com/clacson95/employee-tracker"
+                                        aria-label="GitHub"
+                                        icon={<FaGithub fontSize="1.25rem" />}
+                                    />
+                                </ButtonGroup>
+                            </HStack>
+                        </VStack>
+                    </Center>
+            
                 </HStack>
 
+                {/* row 3 */}
                 <HStack>
-                    <Project src={Social} alt="social network API" />
-                    <Project src={Weather} alt="weather dashboard" />
+
+                    {/* project 5 */}
+                    <Center>
+                        <VStack>
+                            {/* project image */}
+                            <Image src={Social} alt="social network API" />
+                            {/* project label */}
+                            <Text> Social Network API</Text>
+                            {/* github deployment & repo */}
+                            <HStack>
+                                <ButtonGroup variant="ghost">
+                                    <IconButton
+                                        as="a"
+                                        href="https://www.youtube.com/watch?v=wmVHiRCeMTE&feature=youtu.be"
+                                        aria-label="Deployed Application"
+                                        icon={<GrDeploy fontSize="1.25rem" />}
+                                    />
+                                    <IconButton
+                                        as="a"
+                                        href="https://github.com/clacson95/nosql-social-network-api"
+                                        aria-label="GitHub"
+                                        icon={<FaGithub fontSize="1.25rem" />}
+                                    />
+                                </ButtonGroup>
+                            </HStack>
+                        </VStack>
+                    </Center>
+
+                    {/* project 6 */}
+                    <Center>
+                        <VStack>
+                            {/* project image */}
+                            <Image src={Weather} alt="weather dashboard" />
+                            {/* project label */}
+                            <Text> Weather Dashboard</Text>
+                            {/* github deployment & repo */}
+                            <HStack>
+                                <ButtonGroup variant="ghost">
+                                    <IconButton
+                                        as="a"
+                                        href="https://clacson95.github.io/weather-api-dashboard/"
+                                        aria-label="Deployed Application"
+                                        icon={<GrDeploy fontSize="1.25rem" />}
+                                    />
+                                    <IconButton
+                                        as="a"
+                                        href="https://github.com/clacson95/weather-api-dashboard"
+                                        aria-label="GitHub"
+                                        icon={<FaGithub fontSize="1.25rem" />}
+                                    />
+                                </ButtonGroup>
+                            </HStack>
+                        </VStack>
+                    </Center>
+            
                 </HStack>
 
             </VStack>
