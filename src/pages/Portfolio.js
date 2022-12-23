@@ -9,7 +9,6 @@ import {
     VStack
 } from "@chakra-ui/react";
 import React from "react";
-import Project from "../components/Project";
 import { FaGithub } from 'react-icons/fa';
 import { GrDeploy } from "react-icons/gr";
 
@@ -21,17 +20,18 @@ import Team from "../assets/team.png";
 import Social from "../assets/social.png";
 import Weather from "../assets/weather.png";
 
+import Navigation from "../components/Navigation";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 
 const Portfolio = () => {
     return (
         <Container>
 
+            <Navigation />      
 
-                    
-                    
-
-                    
-
+            <Header />
 
 
             {/* portfolio grid */}
@@ -216,6 +216,8 @@ const Portfolio = () => {
                 </HStack>
 
             </VStack>
+
+            <Footer />
 
         </Container>
     );
