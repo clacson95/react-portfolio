@@ -1,8 +1,8 @@
 import React from "react";
 import {  } from "@chakra-ui/react";
 
-function Navigation() {
 
+const Navigation = () => {
     return (
         <div className="nav">
             <a href="/about">About Me</a>
@@ -11,7 +11,7 @@ function Navigation() {
             <a href="/resume">Resume</a>
         </div>
     );
-    
 }
+
 
 export default Navigation;
